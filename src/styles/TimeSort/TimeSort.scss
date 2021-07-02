@@ -1,0 +1,40 @@
+.arrow, .arrow__left {
+
+	width: 16px;
+	height: 16px;
+	flex-grow: 0;
+	object-fit: contain;
+
+	&__right {
+		transform: rotate(-180deg);
+	}
+}
+
+.timeline {
+
+	width: 78px;
+	height: 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	margin: 0 35px 12px 457px;
+	padding: 0;
+
+	&__value {
+
+		width: 30px;
+		height: 15px;
+		flex-grow: 0;
+		font-family: Roboto;
+		font-size: 13px;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: normal;
+		letter-spacing: normal;
+		text-align: left;
+		color: var(--primary-dark-grey);
+	}
+}

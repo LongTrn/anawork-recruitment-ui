@@ -1,0 +1,32 @@
+* {
+	
+	font-family: Roboto;
+}
+
+.spacing {
+
+	&-xxs { 
+
+		margin: 2px;
+	}
+
+	&-xs { 
+
+		margin: 4px;
+	}
+
+	&-s { 
+
+		margin: 6px;
+	}
+
+	&-m { 
+
+		margin: 8px;
+	}
+
+	&-l { 
+
+		margin: 12px;
+	}
+}
