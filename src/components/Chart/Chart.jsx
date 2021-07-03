@@ -51,6 +51,7 @@ export default function Chart (props) {
 		scales: {
 			yAxes: [
 				{
+					display: true,
 					ticks: {
 						beginAtZero: true,
 					},

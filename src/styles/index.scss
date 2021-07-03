@@ -1,6 +1,15 @@
 * {
 	
 	font-family: Roboto;
+	--ezycheck-white: #ffffff;
+	--primary-purple: #5d78ff;
+	--primary-dark-grey: #434349;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .spacing {

@@ -3,6 +3,8 @@ import '../../styles/Recruitment/Recruitment.scss';
 import Header from "../Header/Header"
 import Statistics from "../Statistics/Statistics"
 import Recruit from "../Recruit/Recruit"
+import ListRecruitment from "../ListRecruitment/ListRecruitment"
+import MyRecruited from "../MyRecruited/MyRecruited"
 
 export default function Recruitment () {
 	return(
@@ -10,13 +12,17 @@ export default function Recruitment () {
 			<Header
 				main="Tuyển dụng"
 				sub="Yêu cầu tuyển dụng của tôi"
+				flag={true}
 			/>
-			<Statistics
-				header="Thống kê số lượng cần tuyển / đã tuyển"
-			/>
+			<div className="hanging">
+				<Statistics
+					header="Thống kê số lượng cần tuyển / đã tuyển"
+				/>
+				<Recruit/>
+			</div>
 
-			<div></div>
-			<div></div>
+			<ListRecruitment></ListRecruitment>
+			<MyRecruited></MyRecruited>
 			<div></div>
 
 		</div>
