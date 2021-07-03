@@ -1,0 +1,50 @@
+.header {
+		
+	&__main {
+
+		width: 84px;
+		height: 16px;
+		flex-grow: 0;
+		font-family: Roboto;
+		font-size: 16px;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		text-align: left;
+		color: var(--primary-dark-grey);
+	}
+
+	&__line {
+		
+		width: 1px;
+		height: 16px;
+		flex-grow: 0;
+		transform: rotate(90deg);
+		background-color: #c4c4c4;
+	}
+
+	&__sub {
+
+		width: 157px;
+		height: 16px;
+		flex-grow: 0;
+		font-family: Roboto;
+		font-size: 13px;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.23;
+		letter-spacing: normal;
+		text-align: left;
+		color: #757575;
+	}
+
+	&--margin {
+		
+		margin: 16px 150px 0 150px;
+		padding: 0 0 0 2px;
+
+	}
+}
